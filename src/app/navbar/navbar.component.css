@@ -1,0 +1,39 @@
+nav {
+  display: inline;
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgb(90, 86, 86);
+  height: 50px;
+  margin: 0;
+}
+
+h3 {
+  position: absolute;
+  top: 10%;
+}
+
+li a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+ul li a {
+  color: bisque;
+}
+
+.searchBar {
+  padding: 15px;
+}
